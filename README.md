@@ -19,10 +19,16 @@
 
 ---
 <!-- GitHub Stats & Streak -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=msgenan&show_icons=true&theme=tokyonight&hide_border=true" height="200" alt="GitHub Stats"/>
-  <img src="https://streak-stats.demolab.com?user=msgenan&theme=tokyonight&hide_border=true" height="200" alt="GitHub Streak"/>
-</p>
+<table align="center">
+<tr>
+<td>
+<img src="https://github-readme-stats.vercel.app/api?username=msgenan&show_icons=true&theme=tokyonight&hide_border=true" height="200" alt="GitHub Stats"/>
+</td>
+<td>
+<img src="https://streak-stats.demolab.com?user=msgenan&theme=tokyonight&hide_border=true" height="200" alt="GitHub Streak"/>
+</td>
+</tr>
+</table>
 
 ---
 <!-- Contact -->
