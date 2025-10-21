@@ -1,5 +1,6 @@
 <p align="center">
   <h1>Sabit Genan</h1>
+  <hr style="width:60%;border:1px solid #444"/>
 </p>
 
 <p align="center">
