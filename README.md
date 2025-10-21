@@ -24,10 +24,17 @@
 
 <hr/>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=msgenan&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" width="45%"/>
-  <img src="https://streak-stats.demolab.com?user=msgenan&theme=tokyonight&hide_border=true" width="45%"/>
-</p>
+<table>
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=msgenan&show_icons=true&theme=tokyonight&hide_border=true" alt="GitHub Stats"/>
+    </td>
+    <td>
+      <img src="https://streak-stats.demolab.com?user=msgenan&locale=en&mode=daily&theme=tokyonight&hide_border=true&border_radius=10&order=3" alt="GitHub Streak"/>
+    </td>
+  </tr>
+</table>
+
 
 <hr/>
 
