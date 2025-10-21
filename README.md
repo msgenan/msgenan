@@ -14,10 +14,11 @@
 <img src="https://img.shields.io/badge/Shell_Script-121001?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Shell Script"/>
 
 ---
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=msgenan&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10" height="200" alt="GitHub Stats" />
-  <img src="https://streak-stats.demolab.com?user=msgenan&theme=tokyonight&hide_border=true&border_radius=10" height="200" alt="GitHub Streak" />
-</p>
+<div style="display: flex; justify-content: center; align-items: center;">
+    <img width="47%" height="200px" src="https://github-readme-stats.vercel.app/api?username=msgenan&show_icons=true&theme=tokyonight" />
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    <img width="50%" height="200px" src="https://streak-stats.demolab.com?user=msgenan&theme=tokyonight" alt="GitHub Streak" />
+</div>
 
 ---
 <!-- Contact -->
