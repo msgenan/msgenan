@@ -1,7 +1,3 @@
-# Hello! I'm Muhammed Sabit Genan
-
----
-
 ## About Me
 
 * **Education:** Studying **Management Information Systems (MIS)**.
