@@ -1,6 +1,5 @@
 ## About Me
 
-* **Title:** **Jr Software Developer**.
 * **Education:** Studying **Management Information Systems**.
 * **Experience:** Currently an **IT Support Intern**.
 * **Focus:** Deep interest in systems programming.
