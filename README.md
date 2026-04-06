@@ -1,9 +1,7 @@
 ## About Me
 
 * **Education:** Studying **Management Information Systems**.
-* **Experience:** Currently an **IT Support Intern**.
-* **Focus:** Deep interest in systems programming.
-* **Learning:** Always focused on C, C++, Python, operating systems, and network protocols.
+* **Learning:** Focused on C, C++, Python, operating systems, and network protocols.
 
 ---
 
