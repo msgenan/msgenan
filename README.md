@@ -5,13 +5,13 @@
 </picture>
 <br>
 
-🎓 Cadet at **[42 Istanbul](https://42istanbul.com.tr/)** · **MIS @ İstinye** · AI intern @ Alpacotech
+
+Cadet at **42 Istanbul** · **MIS @İstinye** · AI intern @Alpacotech
 
 **So far**
 - Low-level C and C++ at 42: a shell, a raycaster, threads that (mostly) don't deadlock
 - Hackathon projects, from a blank repo to a working demo
 - AI agents and the long-running build loops around them
-- A personal “second brain” to keep it all in one place
 
 **Now learning**
 - Machine learning from first principles, linear regression through transformers
