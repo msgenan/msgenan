@@ -6,7 +6,7 @@
 <br>
 
 
-Cadet at **42 Istanbul** · **MIS @İstinye** · AI intern @Alpacotech
+Cadet at **42 Istanbul** · **MIS @İstinye** · **AI Engineering Intern @Alpacotech**
 
 **Working On**
 - Low-level C and C++ at 42: a shell, a raycaster, threads that (mostly) don't deadlock
