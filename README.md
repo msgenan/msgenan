@@ -8,7 +8,7 @@
 
 Cadet at **42 Istanbul** · **MIS @İstinye** · AI intern @Alpacotech
 
-**So far**
+**Working On**
 - Low-level C and C++ at 42: a shell, a raycaster, threads that (mostly) don't deadlock
 - Hackathon projects, from a blank repo to a working demo
 - AI agents and the long-running build loops around them
