@@ -1,7 +1,7 @@
 <img src="assets/brain-storm.svg" width="100%" alt="A tiny brain-bot codes through a thunderstorm until the computer explodes">
 
 <p align="center">
-  Cadet at <b>42 Istanbul</b> · MIS <b>@İstinye</b> · AI Engineering Intern <b>@Alpacotech</b><br>
+  Cadet at <b>@42Istanbul</b> · MIS <b>@Istinye</b> · AI Engineering Intern <b>@Alpacotech</b><br>
   <sub>Builds in all weather.</sub>
 </p>
 
