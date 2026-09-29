@@ -1,3 +1,5 @@
+<img src="assets/brain-storm.svg" width="100%" alt="A tiny brain-bot codes through a thunderstorm until the computer explodes">
+
 Cadet at **42 Istanbul** · **MIS @İstinye** · **AI Engineering Intern @Alpacotech**
 
 **Working On**
