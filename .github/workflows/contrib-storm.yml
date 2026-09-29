@@ -1,0 +1,39 @@
+name: contrib-storm
+
+# Re-renders the contribution storm once a day and publishes it to the `output` branch,
+# so main's history stays free of bot commits. The README reads it from there.
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - tools/contrib_storm.py
+      - .github/workflows/contrib-storm.yml
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Render
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 tools/contrib_storm.py --user "${{ github.repository_owner }}" --out dist/contrib-storm.svg
+
+      - name: Publish to the output branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          cd dist
+          git init -q -b output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add contrib-storm.svg
+          git commit -q -m "Render contribution storm"
+          git push -q -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}.git" output
