@@ -1,11 +1,3 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/header-light.svg">
-  <img alt="Streams of light flowing around a dark sphere and rolling up into a trail of eddies" src="./assets/header-dark.svg" width="100%">
-</picture>
-<br>
-
-
 Cadet at **42 Istanbul** · **MIS @İstinye** · **AI Engineering Intern @Alpacotech**
 
 **Working On**
