@@ -352,14 +352,16 @@ def render(cal):
         an.sample(f"l{i}", lambda t, i=i: vis(([1, 0, 2, 0][math.floor(t * 9) % 4] if hop(t) == 0 else 0) == i), 12)
 
     total = cal["totalContributions"]
-    css = "".join(an.css) + ("@media (prefers-reduced-motion:reduce){*{animation-delay:-6s!important;"
-                             "animation-play-state:paused!important}}")
+    # fade in once when the image arrives (0.5 s, on the 24 fps grid), so it does not pop in after the text
+    css = "".join(an.css) + "@keyframes intro{from{opacity:0}to{opacity:1}}.intro{animation:intro .5s steps(12,end) both}"
+    css += ("@media (prefers-reduced-motion:reduce){*{animation-delay:-6s!important;"
+            "animation-play-state:paused!important}}")
     fr = [f"M3 0H{W - 3}V1H{W - 1}V3H{W}V{H - 3}H{W - 1}V{H - 1}H{W - 3}V{H}H3V{H - 1}H1V{H - 3}H0V3H1V1H3Z"]
     defs.append(f'<clipPath id="frm"><path d="{fr[0]}"/></clipPath>')
     s = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W * 4}" height="{H * 4}" viewBox="0 0 {W} {H}" '
          f'shape-rendering="crispEdges"><title>{total} contributions in the last year, struck by a small storm'
          f"</title><defs>{''.join(defs)}</defs><style>{css}</style>"
-         f'<g clip-path="url(#frm)">{"".join(L)}</g></svg>')
+         f'<g class="intro" clip-path="url(#frm)">{"".join(L)}</g></svg>')
     # shorten animated ids
     ids = list(dict.fromkeys(re.findall(r"#([A-Za-z_][\w-]*)\{", css)))
     mp = {i: "i" + format(n, "x") for n, i in enumerate(ids)}
