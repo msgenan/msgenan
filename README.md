@@ -26,3 +26,4 @@
 <img src="https://raw.githubusercontent.com/msgenan/msgenan/output/contrib-storm.svg" width="100%" alt="Contribution calendar for the last year, struck by a small storm">
 
 <img src="assets/morning.svg" width="100%" alt="The morning after: the brain-bot sleeps on the keyboard next to a new CRT">
+
