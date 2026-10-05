@@ -5,6 +5,7 @@
   <sub>Builds in all weather.</sub>
 </p>
 
+<!-- 
 <img src="assets/hdr-working.svg" width="100%" alt="Working on">
 
 - **Webserv, in progress.** An HTTP/1.1 server in C++98, written with a teammate: one `poll()` loop for every client and an nginx-style config parser. Responses, uploads and CGI are next.
@@ -20,7 +21,7 @@
 - **Agentic systems.** How LLM agents plan, call tools and share work without stepping on each other.
 - **Backend.** From raw sockets up to FastAPI: API design, PostgreSQL and Redis, and keeping concurrent requests correct under load.
 - **Infrastructure.** Docker, CI with GitHub Actions, and deploying things that stay up.
-
+-->
 <img src="assets/keys.svg" width="100%" alt="C, C++, Python, TypeScript, JavaScript, Shell, R, HTML, CSS, Docker, Make, Git">
 
 <img src="https://raw.githubusercontent.com/msgenan/msgenan/output/contrib-storm.svg" width="100%" alt="Contribution calendar for the last year, struck by a small storm">
